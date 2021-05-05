@@ -1,9 +1,0 @@
-C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll
-C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
-C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\System.Management.Automation.dll
-C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\Microsoft.Management.Infrastructure.dll
-C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\System.Management.Automation.xml
-C:\Users\robin\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-C:\Users\robin\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
-C:\Users\robin\source\repos\Calculator\Calculator\obj\Debug\Calculator.dll
-C:\Users\robin\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
