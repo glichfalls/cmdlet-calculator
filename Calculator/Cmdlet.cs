@@ -1,10 +1,10 @@
 ﻿using System.Management.Automation;
 
 // Import-Module "C:\Users\robin\source\repos\Calculator\Calculator\bin\Debug\Calculator.dll"
+// Import-Module "Z:\5. Semester\Skriptingtechnologien\glichfalls\cmdlet-calculator\Calculator\bin\Debug\Calculator.dll" -verbose
 
 namespace Calculator
 {
-
     public abstract class CalculationCmdlet : Cmdlet
     {
         [Parameter(ValueFromPipeline = true)]
@@ -27,6 +27,11 @@ namespace Calculator
 
     }
 
+    /// <summary>
+    /// <para type="synopsis">This is a function from the Calculator library.</para>
+    /// <para type="description">This cmdlet lets you add two numbers together.</para>
+    /// <para type="description">It is possible to use multiple commands with pipelines.</para>
+    /// </summary>
     [Cmdlet(VerbsCommon.Get, "Sum")]
     public class GetSumCmdlet : CalculationCmdlet
     {
@@ -36,6 +41,11 @@ namespace Calculator
         }
     }
 
+    /// <summary>
+    /// <para type="synopsis">This is a function from the Calculator library.</para>
+    /// <para type="description">This cmdlet lets you subtract two numbers.</para>
+    /// <para type="description">It is possible to use multiple commands with pipelines.</para>
+    /// </summary>
     [Cmdlet(VerbsCommon.Get, "Difference")]
     public class GetDifferenceCmdlet : CalculationCmdlet
     {
@@ -45,6 +55,11 @@ namespace Calculator
         }
     }
 
+    /// <summary>
+    /// <para type="synopsis">This is a function from the Calculator library.</para>
+    /// <para type="description">This cmdlet lets you multiply two numbers.</para>
+    /// <para type="description">It is possible to use multiple commands with pipelines.</para>
+    /// </summary>
     [Cmdlet(VerbsCommon.Get, "Product")]
     public class GetProductCmdlet : CalculationCmdlet
     {
@@ -54,6 +69,11 @@ namespace Calculator
         }
     }
 
+    /// <summary>
+    /// <para type="synopsis">This is a function from the Calculator library.</para>
+    /// <para type="description">This cmdlet lets you divide two numbers.</para>
+    /// <para type="description">It is possible to use multiple commands with pipelines.</para>
+    /// </summary>
     [Cmdlet(VerbsCommon.Get, "Quotient")]
     public class GetQuotientCmdlet : CalculationCmdlet
     {
@@ -62,5 +82,4 @@ namespace Calculator
             return n1 / n2;
         }
     }
-
 }
